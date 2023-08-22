@@ -136,7 +136,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite"
+    "start": "npm run lite",
+    "build": "parcel build dictionary-web-app/index.html --dist-dir ./dist "
   },
   "author": "kj",
   "license": "ISC"
