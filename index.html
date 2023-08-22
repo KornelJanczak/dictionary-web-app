@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Dictionary web app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="dist/app.js" defer type="module"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img
+          src="./starter-code/assets/images/logo.svg"
+          alt="logo"
+          class="logo"
+        />
+        <span id="font-select" class="font-select"
+          >Sans Serif
+          <ul class="hidde option-list">
+            <li class="option-item sans-serif" data-font="sans-serif">
+              Sans Serif
+            </li>
+            <li class="option-item serif" data-font="serif">Serif</li>
+            <li class="mono option-item" data-font="monospace">Mono</li>
+          </ul>
+        </span>
+        <div class="check-btn">
+          <div class="checkbox-wrapper-17">
+            <input type="checkbox" id="switch-17" /><label
+              for="switch-17"
+            ></label>
+          </div>
+          <img
+            src="./starter-code/assets/images/icon-moon.svg"
+            alt="moon-img"
+            class="chuj"
+          />
+        </div>
+      </header>
+      <form class="input-box">
+        <input type="text" class="search-input" />
+        <button class="search-btn">
+          <img src="./starter-code/assets/images/icon-search.svg" />
+        </button>
+        <label class="error hidde">Whoops, can't be empty...</label>
+      </form>
+      <section class="main-section"></section>
+    </main>
+  </body>
+</html>
